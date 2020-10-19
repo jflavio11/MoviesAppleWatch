@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9465142253CBBF800DC844D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9465141253CBBF800DC844D /* Article.swift */; };
 		C9465148253CBFD600DC844D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C9465147253CBFD600DC844D /* Alamofire */; };
-		C946514D253CC04F00DC844D /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946514C253CC04F00DC844D /* ArticleRow.swift */; };
 		C9465159253CC76600DC844D /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C9465158253CC76600DC844D /* KingfisherSwiftUI */; };
 		C9465166253CD11200DC844D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9465165253CD11200DC844D /* Movie.swift */; };
 		C946516C253CD52200DC844D /* IMovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C946516B253CD52200DC844D /* IMovieRepository.swift */; };
@@ -84,8 +82,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C9465141253CBBF800DC844D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		C946514C253CC04F00DC844D /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
 		C9465165253CD11200DC844D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		C946516B253CD52200DC844D /* IMovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMovieRepository.swift; sourceTree = "<group>"; };
 		C946516F253CD5C900DC844D /* MovieRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepositoryImpl.swift; sourceTree = "<group>"; };
@@ -209,8 +205,6 @@
 				C9BC0B3D252E3C9F0089AA39 /* Info.plist */,
 				C9BC0B3E252E3C9F0089AA39 /* PushNotificationPayload.apns */,
 				C9BC0B3A252E3C9F0089AA39 /* Preview Content */,
-				C9465141253CBBF800DC844D /* Article.swift */,
-				C946514C253CC04F00DC844D /* ArticleRow.swift */,
 				C946518C253D02E600DC844D /* AppConstants.swift */,
 			);
 			path = "SampleWatchOne WatchKit Extension";
@@ -368,7 +362,6 @@
 			files = (
 				C9465185253CDE2C00DC844D /* MovieItemView.swift in Sources */,
 				C946516C253CD52200DC844D /* IMovieRepository.swift in Sources */,
-				C9465142253CBBF800DC844D /* Article.swift in Sources */,
 				C9BC0B33252E3C9E0089AA39 /* NotificationController.swift in Sources */,
 				C9465166253CD11200DC844D /* Movie.swift in Sources */,
 				C9BC0B31252E3C9E0089AA39 /* ContentView.swift in Sources */,
@@ -379,7 +372,6 @@
 				C9BC0B2F252E3C9E0089AA39 /* SampleWatchOneApp.swift in Sources */,
 				C946518D253D02E600DC844D /* AppConstants.swift in Sources */,
 				C9BC0B35252E3C9E0089AA39 /* NotificationView.swift in Sources */,
-				C946514D253CC04F00DC844D /* ArticleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
